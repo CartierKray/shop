@@ -444,7 +444,7 @@ export default function ProductDetail({ product }: { product: Product }) {
               <div className="text-[13px] font-normal text-zinc-900 dark:text-white">
                 Size
               </div>
-              <div className="mt-4 grid grid-cols-6 gap-2 w-fit max-[380px]:grid-cols-3 sm:grid-cols-6">
+              <div className="mt-4  grid grid-cols-6 gap-2 w-fit max-[380px]:grid-cols-3 sm:grid-cols-6">
                 {sizes.map((s) => (
                   <button
                     key={s}
@@ -454,7 +454,7 @@ export default function ProductDetail({ product }: { product: Product }) {
                       )
                     }
                     className={cn(
-                      "p-2.5 border text-[12px] transition-colors",
+                      "p-2.5 border text-[12px] whitespace-nowrap w-fit transition-colors",
                       selectedSize === s
                         ? "border-zinc-900"
                         : "border-zinc-200 hover:border-zinc-400"

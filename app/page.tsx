@@ -7,6 +7,7 @@ import VideoBannerEleven from "@/components/VideoBanner/VideoBannerEleven";
 import CategoryGrid from "@/components/CategoryGrid/CategoryGrid";
 import PlaylistHero from "@/components/PlayListHero/PlayListHero";
 import NavbarNewSeven from "@/components/Navbar/NavbarNewSeven";
+import { Reviews } from "@/components/Reviews/Reviews";
 
 export default function Home() {
   return (
@@ -124,6 +125,26 @@ export default function Home() {
         <FadeInWhenVisible delay={0.1}>
           <div className="py-20 lg:py-48">
             <CategoryGrid />
+          </div>
+        </FadeInWhenVisible>
+
+        <div>
+          <div className="w-full lg:mt-0 pb-14 lg:pb-40 text-center">
+            <span className="block uppercase tracking-[0.18em] text-[12px] sm:text-[13px] text-black dark:text-white">
+              AREA020 X OAKLEY
+            </span>
+            <div
+              className="mt-1 text-black dark:text-white font-medium tracking-[-0.01em] leading-[1.05]
+               text-[34px] sm:text-[44px] md:text-[56px]"
+            >
+              Gascan® - Blue <br className="hidden md:flex" /> Steel Fade
+            </div>
+          </div>
+        </div>
+
+        <FadeInWhenVisible delay={0.1}>
+          <div className="pb-20 lg:pb-32">
+            <Reviews />
           </div>
         </FadeInWhenVisible>
 

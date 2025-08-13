@@ -195,7 +195,7 @@ export const PRODUCTS: Product[] = [
       { name: "Black", hex: "#999999" },
       { name: "Oxide", hex: "#6B6B6B" },
     ],
-    sizes: ["ONE SIZE"],
+    sizes: ["One Size Fits All"],
     category: "accessories",
   },
   // {
