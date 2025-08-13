@@ -31,7 +31,7 @@ const AIChatBot: React.FC<AIChatBotProps> = ({ isOpen, setIsOpen }) => {
       from: "bot",
       text: `Hoi! Wat leuk dat je contact met ons opneemt.
 
-Stel gerust je vraag. Je kunt ook mailen naar [info@reactly.nl](mailto:info@reactly.nl) of bellen naar [+31 (0)6 10 10 29 52](tel:+31610102952).
+Stel gerust je vraag. Je kunt ook mailen naar [info@area020.nl](mailto:info@area020.nl) of bellen naar [+31 (0)6 10 10 29 52](tel:+31610102952).
 
 📅 We zijn bereikbaar op werkdagen tussen 08:00 en 21:00.
 
@@ -588,7 +588,7 @@ Stel gerust je vraag. Je kunt ook mailen naar [info@reactly.nl](mailto:info@reac
             className="rounded-full h-10 w-10 object-cover"
           />
           <div>
-            <div className="text-sm text-black dark:text-white">Reactly</div>
+            <div className="text-sm text-black dark:text-white">Area020</div>
             <div className="font-normal dark:text-white/50 text-xs text-black/50 tracking-wide flex items-center gap-1">
               <span className="w-2 h-2 bg-green-500 rounded-full inline-block"></span>
               <div className="pt-[0.9px]">Online</div>
