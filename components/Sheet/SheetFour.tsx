@@ -108,7 +108,7 @@ export function SheetFour() {
                     href="mailto:info@alphaleasegroup.nl"
                     className="block text-[10px] md:text-[13px] lg:text-[14px] font-extralight text-white hover:text-[[#FFF] hover:tracking-wider hover:font-semibold transition-all duration-300 ease-in-out"
                   >
-                    info@reactly.nl
+                    info@area020.nl
                   </a>
                 </div>
 
@@ -132,7 +132,7 @@ export function SheetFour() {
                       Openingstijden
                     </div>
                     <div className="block text-[10px] md:text-[13px] lg:text-[14px] font-extralight text-white hover:tracking-wider hover:font-semibold transition-all duration-300 ease-in-out">
-                      Reactly.nl is geopend van Ma t/m Za&nbsp;
+                      Wij zijn geopend van Ma t/m Za&nbsp;
                       <br />
                       en is bereikbaar van 08:00 t/m 21:00
                     </div>

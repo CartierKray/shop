@@ -821,7 +821,7 @@ export default function Footer() {
           </div>
         </div> */}
         <div className="text-gray-500 text-xs mt-3 md:mt-0 text-center hover:tracking-wider hover:font-semibold transition-all duration-300 ease-in-out">
-          © 2025 BeterLease.nl
+          © 2025 Area020.nl
         </div>
       </div>
     </footer>
