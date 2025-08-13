@@ -21,11 +21,11 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  { label: "DIENSTEN", href: "/diensten" },
-  { label: "COMPONENTEN", href: "/componenten" },
-  { label: "PRIJZEN", href: "/prijzen" },
-  { label: "FAQ", href: "/faq" },
-  { label: "CONTACT", href: "/contact" },
+  { label: "MEN", href: "/diensten" },
+  { label: "WOMAN", href: "/componenten" },
+  { label: "ACCESSORIES", href: "/prijzen" },
+  { label: "COLLECTIONS", href: "/faq" },
+  { label: "SALE", href: "/contact" },
 ];
 
 export function NavMenuTwo() {

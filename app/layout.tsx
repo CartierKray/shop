@@ -7,10 +7,8 @@ import ChatWrapper from "@/components/ChatWrapper/ChatWrapper";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 
 export const metadata: Metadata = {
-  title:
-    "Reactly | Webdesign & Online Marketing Bureau voor Maatwerk Websites die Converteren",
-  description:
-    "Reactly is een strategisch webdesign & online marketing bureau. Wij ontwerpen en coderen conversiegerichte websites, landingspagina’s en funnels voor groei. Bliksemsnel, SEO-geoptimaliseerd, schaalbaar én met een ijzersterk design. Meer leads, meer omzet, betere branding.",
+  title: "AREA020 | Area020 Worldwide",
+  description: "AREA020 | Area020 Worldwide",
   icons: {
     icon: "/favicon.ico",
   },
@@ -25,21 +23,12 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" type="image/svg+xml" />
-        <title>
-          Reactly | Webdesign & Online Marketing Bureau voor Maatwerk Websites
-          die Converteren
-        </title>
+        <title>AREA020 | Area020 Worldwide die Converteren</title>
         <meta name="description" content="Website & Marketing Agency" />
         <meta name="robots" content="index, follow" />
-        <meta
-          property="og:title"
-          content="Reactly is een strategisch webdesign & online marketing bureau. Wij ontwerpen en coderen conversiegerichte websites, landingspagina’s en funnels voor groei. Bliksemsnel, SEO-geoptimaliseerd, schaalbaar én met een ijzersterk design. Meer leads, meer omzet, betere branding."
-        />
-        <meta
-          property="og:description"
-          content="Reactly is een strategisch webdesign & online marketing bureau. Wij ontwerpen en coderen conversiegerichte websites, landingspagina’s en funnels voor groei. Bliksemsnel, SEO-geoptimaliseerd, schaalbaar én met een ijzersterk design. Meer leads, meer omzet, betere branding."
-        />
-        <meta property="og:url" content="https://www.reactly.nl" />
+        <meta property="og:title" content="AREA020 | Area020 Worldwide" />
+        <meta property="og:description" content="AREA020 | Area020 Worldwide" />
+        <meta property="og:url" content="https://www.area020.nl" />
         <meta property="og:type" content="website" />
 
         {/* Facebook Domain Verification Meta Tag */}
