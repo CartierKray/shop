@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.reactly.nl
+
+# Sitemaps
+Sitemap: https://www.reactly.nl/sitemap.xml
