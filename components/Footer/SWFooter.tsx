@@ -106,7 +106,7 @@ export default function Footer() {
           <br />
           tot leven met
           <span className="bg-clip-text text-transparent dark:bg-[#c2b293] bg-[#c2b293] font-semibold">
-            &nbsp; Reactly
+            &nbsp; AREA020
           </span>
         </h2>
       </div>

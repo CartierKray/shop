@@ -278,7 +278,7 @@ export default function ProductDetail({ product }: { product: Product }) {
 
       <section className="mx-auto w-full pt-20">
         {/* terug */}
-        <button
+        {/* <button
           type="button"
           onClick={() => router.back()}
           className="mb-3 inline-flex ml-4 bg-zinc-100 dark:bg-zinc-800 dark:text-white/50 dark:outline-zinc-600 px-2 py-2 outline outline-[1px] outline-zinc-300 items-center gap-2 text-[10px] text-zinc-700 hover:underline"
@@ -295,7 +295,7 @@ export default function ProductDetail({ product }: { product: Product }) {
             <path d="M15 18l-6-6 6-6" />
           </svg>
           Terug
-        </button>
+        </button> */}
 
         <div className="grid gap-y-10 md:grid-cols-[minmax(0,1fr)_500px] xl:grid-cols-[minmax(0,1fr)_725px]">
           {/* LEFT: desktop gallery + mobile swiper */}
